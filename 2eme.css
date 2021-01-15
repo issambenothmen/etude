@@ -161,3 +161,78 @@ max-width: 100%;
 .textbx{
     background: transparent;
 }
+@media (max-width:991px){
+    header,
+    header.sticky{
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+    .menu
+    {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align:center;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0, 0, 0);
+        transition: 00.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+    }
+    .menu.active{
+        left: 0;
+    }
+    header ul li a{
+        color: #03a9f4;
+        border: 10px;
+    }
+    .toggle{
+        width: 40px;
+        height: 40px;
+        background: url(icons8_menu.ico);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active
+    {
+        background: url(icons8_close_window_1.ico);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    header.sticky .toggle
+    {
+        filter: invert(1);
+    }
+    section {
+        padding: 150px 50px;
+    }
+    .banner{
+        padding: 150px 50px 100px;
+    }
+    .banner h2{
+        font-size: 1.5em;
+    }
+   .btn{
+       margin-top: 10px;
+       padding: 10px 20px;
+       font-size: 16px;
+   }
+   .heading h2 
+   {
+       font-size: 24px;
+   }
+   .contentbx h3{
+       font-size: 20px;
+   }
+   .content{
+       flex-direction: column;
+   }
+}
