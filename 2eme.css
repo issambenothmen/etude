@@ -161,7 +161,7 @@ max-width: 100%;
 .textbx{
     background: transparent;
 }
-@media (max-width:800px){
+@media (max-width:auto;){
     header,
     header.sticky{
         padding: 15px auto;
