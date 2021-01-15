@@ -164,7 +164,7 @@ max-width: 100%;
 @media (max-width:991px){
     header,
     header.sticky{
-        padding: 20px auto;
+        padding: 15px auto;
         z-index: 1000;
     }
     .menu
