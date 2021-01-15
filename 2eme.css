@@ -161,8 +161,8 @@ max-width: 100%;
 .textbx{
     background: transparent;
 }
-@media (max-width:991px;){
-      header,
+@media (max-width:991px){
+    header,
     header.sticky{
         padding: 20px 50px;
         z-index: 1000;
@@ -191,8 +191,8 @@ max-width: 100%;
         border: 10px;
     }
     .toggle{
-        width: auto;
-        height: auto;
+        width: 40px;
+        height: 40px;
         background: url(icons8_menu.ico);
         background-position: center;
         background-repeat: no-repeat;
@@ -212,10 +212,10 @@ max-width: 100%;
         filter: invert(1);
     }
     section {
-        padding: auto auto;
+        padding: 150px 50px;
     }
     .banner{
-        padding: auto auto 100px;
+        padding: 150px 50px 100px;
     }
     .banner h2{
         font-size: 1.5em;
@@ -235,4 +235,7 @@ max-width: 100%;
    .content{
        flex-direction: column;
    }
+}
+
+
 }
