@@ -170,7 +170,7 @@ max-width: 100%;
     .menu
     {
         position: fixed;
-        top: 75px;
+        top: 55px;
         left: -100%;
         display: block;
         padding: 100px 50px;
@@ -212,10 +212,10 @@ max-width: 100%;
         filter: invert(1);
     }
     section {
-        padding: 150px 60px;
+        padding: 150px 55px;
     }
     .banner{
-        padding: 150px 60px 100px;
+        padding: 150px 55px 100px;
     }
     .banner h2{
         font-size: 1.5em;
