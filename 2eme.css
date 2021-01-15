@@ -170,7 +170,7 @@ max-width: 100%;
     .menu
     {
         position: fixed;
-        top: 75px;
+        top: auto;
         left: -100%;
         display: block;
         padding: 100px 50px;
@@ -191,8 +191,8 @@ max-width: 100%;
         border: 10px;
     }
     .toggle{
-        width: 40px;
-        height: 40px;
+        width: auto;
+        height: auto;
         background: url(icons8_menu.ico);
         background-position: center;
         background-repeat: no-repeat;
@@ -212,10 +212,10 @@ max-width: 100%;
         filter: invert(1);
     }
     section {
-        padding: 150px auto;
+        padding: auto auto;
     }
     .banner{
-        padding: 150px auto 100px;
+        padding: auto auto 100px;
     }
     .banner h2{
         font-size: 1.5em;
