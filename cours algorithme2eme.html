@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="2eme.css">
+        <title>2eme informatique</title>
+        <link rel="shortcut icon" type="image/x-icon" href="icons8_windows_client_2.ico"/>
+    </head>
+<body>
+    <header>
+        <a href="#pageprincipale" class="logo">etude 2eme info</a>
+        <div class="toggle" onclick="togglemenu();"></div>
+        <ul class="menu">
+            <li>
+                <a href="#">page principale</a>
+            </li>
+            <li>
+
+                <a href="#">cours algo</a>
+            </li>
+            <li>
+                <a href="#">cours python</a>
+            </li>
+            <li>
+                <a href="#">serie</a>
+            </li>
+            <li>
+                <a href="#">devoire</a>
+            </li>
+            <li>
+                <a href="#">Emploir</a>
+            </li>
+            <li>
+                <a href="#">déconnecter</a>
+            </li>
+        </ul>
+    </header>
+    <section>
+        <section class="pageprincipale" id="pageprincipale">
+            <div class="textbx">
+                <div class="banner">
+                
+                <table>
+                    <tr>
+                        <td>
+                            <h2>cours algorithme 1ere trimester</h2></tr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <h2> chapitre 1 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr> <tr>
+                        <td>
+                           <h2> chapitre 2 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <h2> chapitre 3 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <h2> chapitre 4 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr>
+
+                </table>
+                </div>
+                
+            </div>
+       
+        </section>
+    </section>
+    <section>
+        <section class="pageprincipale" id="pageprincipale">
+            <div class="textbx">
+                <div class="banner">
+                
+                <table>
+                    <tr>
+                        <td>
+                            <h2>cours algorithme 2eme trimester</h2></tr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <h2> chapitre 1 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr> <tr>
+                        <td>
+                           <h2> chapitre 2 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <h2> chapitre 3 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <h2> chapitre 4 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr>
+
+                </table>
+                </div>
+                
+            </div>
+       
+        </section>
+    </section>
+    <section>
+        <section class="pageprincipale" id="pageprincipale">
+            <div class="textbx">
+                <div class="banner">
+                
+                <table>
+                    <tr>
+                        <td>
+                            <h2>cours algorithme 3eme trimester</h2></tr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <h2> chapitre 1 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr> <tr>
+                        <td>
+                           <h2> chapitre 2 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <h2> chapitre 3 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <h2> chapitre 4 :</h2>
+                        </td>
+                        <td>
+                            <a href="#"><img src="icons8_download.ico" alt=""></a>
+                        </td>
+                    </tr>
+
+                </table>
+                </div>
+                
+            </div>
+       
+        </section>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+        function togglemenu(){
+            var menutoggle= document.querySelector('.toggle');
+            menu= document.querySelector('.menu');
+            menutoggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
