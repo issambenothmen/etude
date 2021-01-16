@@ -82,7 +82,7 @@ header{
 }
 
 header .sticky{
-    background:black ;
+    background:transparent ;
     padding: 20px 100px;
     box-shadow: 0 5px 20px #F0F8FF;
 }
