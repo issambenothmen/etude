@@ -191,8 +191,8 @@ max-width: 100%;
     header ul li a{
         color: #f71e1e;
         border: 10px;
-        margin: 0 15px;
-        font-size: 37px;
+        margin: 15px 15px;
+        font-size: 30px;
         background-color: #0000009a;
     }
     .toggle{
