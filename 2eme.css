@@ -241,14 +241,7 @@ max-width: 100%;
        flex-direction: column;
    }
 }
-.pageprincipale{
-    display:none;
 
-}
-.coursalgo{
-    display:none;
-
-}
 #.pageprincipale{
     display:block;
 
