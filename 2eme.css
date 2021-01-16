@@ -88,7 +88,7 @@ header .sticky{
 }
 header .logo
 {
-    color:#0000FF  ;
+    color:rgb(255, 255, 255)  ;
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -96,12 +96,12 @@ header .logo
     letter-spacing: 2px;
 }
 header .sticky .logo{
-    color: #0000FF;
+    color: rgb(255, 255, 255);
 }
 header ul{
     position: relative;
     display: flex;
-    color: #0000FF;
+    color: rgb(255, 255, 255);
 }
 header ul li{
     position: relative;
@@ -111,7 +111,7 @@ header ul li a {
     position: relative;
     display: inline-block;
     margin: 0 15px;
-    color: #0000FF;
+    color: rgb(255, 255, 255);
     text-decoration:none;
 }
 header .sticky  ul li a{
